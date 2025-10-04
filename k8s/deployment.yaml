@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: zubairalamdev/myapp:latest   # <-- Jenkins will replace ":latest" with 
-":<commit-hash>"
+        image: zubairalamdev/myapp:latest   # Jenkins will replace :latest with :<commit-hash>
         ports:
         - containerPort: 3000
-~                                                                                                        
+
