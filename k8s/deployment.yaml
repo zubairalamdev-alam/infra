@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: zubairalamdev/myapp:2ee2fd2
+        image: zubairalamdev/myapp:c49c167
         ports:
         - containerPort: 3000
